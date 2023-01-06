@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-blue fixed-top">
+  <div class="container-fluid">
+    <a href="" class="navbar-brand">
+          <img src="https://www.animatedimages.org/data/media/911/animated-usa-flag-image-0035.gif" style="width:59px;">
+    </a>
+
+
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#pn">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id=pn >
+      <ul class="navbar-nav" style="margin-inline-start: auto;">
+          <li><a class="nav-link" [routerLink]="['/']">Home</a></li>
+          <li><a class="nav-link" [routerLink]="['/about']">About</a></li>
+          <li><a class="nav-link" [routerLink]="['/ourteam']">Our Team </a></li>
+          <li><a class="nav-link" [routerLink]="['/contact']">Contact</a></li>
+
+
+        </ul>
+    </div><!--collapse end-->
+  </div><!--container-fluid-->
+</nav><!--nav end-->
+<router-outlet></router-outlet>

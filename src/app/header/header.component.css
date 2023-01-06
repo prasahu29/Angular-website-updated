@@ -1,0 +1,27 @@
+.navbar{
+  background:#212529;
+}
+
+.navbar-nav li{
+padding: 0 10px;
+}
+
+.navbar-nav li a{
+color: #fff!important;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.b{
+  line-height: 39px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  text-align: justify;
+}
+.dim{
+      line-height: 40px;
+          letter-spacing: 1px;
+          color: white;
+          text-align: justify;
+
+    }
